@@ -54,7 +54,7 @@ int main()  // OS가 프로그램의 진입시점과 정상졸료를 판단하기 위한 코드, 정상종�
         {
             // 사용자 입력시 나오는 안내문 출력
             printf("Input [%c] city position [%c] coordinate data : ", city_name, coordinate_name);
-
+            
             // 입력한 값을 동적 할당한 배열의 주소에 저장
             scanf("%f", &city_position_coordinate_data[i][j]);
 
